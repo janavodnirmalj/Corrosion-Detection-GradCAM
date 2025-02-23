@@ -29,7 +29,7 @@ This application processes images of steel members to detect and segment areas o
 - Results are visualized while other images are still being processed.
 - The **status bar** provides guidance on the analysis progress.
 
-![Processing Image 1](path/to/processing_status.jpg)
+![Processing Image 1](https://github.com/janavodnirmalj/Corrosion-Detection-GradCAM/blob/main/WebApp_Processing.png)
 
 ---
 
@@ -42,7 +42,7 @@ This application processes images of steel members to detect and segment areas o
   - Corrosion class (Severity from 1 to 10).
   - Corroded percentage.
 
-![Final Output](path/to/final_output.jpg)
+![Final Output](https://github.com/janavodnirmalj/Corrosion-Detection-GradCAM/blob/main/WebApp_Output.png)
 
 ## Sample Output
 A sample output for a given input image is summarised in the following table:
