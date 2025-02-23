@@ -1,5 +1,5 @@
 # Corrosion-Detection-GradCAM
-This project detects corrosion in images using a pre-trained CNN model (Nash et al.,2022) and visualizes results. The system provides an image marking the corroded area, Grad-CAM explanations, corrosion percentage estimation, and classification based on the corroded percentage.
+This project detects corrosion in images using a pre-trained CNN model (Nash et al., 2022) and visualizes results. The system provides an image marking the corroded area, Grad-CAM explanations, corrosion percentage estimation, and classification based on the corroded percentage.
 
 The developed web application from this approach is available at: https://huggingface.co/spaces/Shashikatd/Corrosion_Detector
 
@@ -49,6 +49,6 @@ A sample output for a given input image is summarised in the following table:
 
 | Input Image | Corrosion Mask | Grad-CAM Heatmap | Corrosion Class | Corroded Percentage |
 |-------------|-----------------|----------------|-----------------|-------------------|
-| ![Input](https://github.com/janavodnirmalj/Corrosion-Detection-GradCAM/blob/main/Image1.png)|  ![Mask](https://github.com/janavodnirmalj/Corrosion-Detection-GradCAM/blob/main/Image1_OL.png) | ![Grad-CAM](https://github.com/janavodnirmalj/Corrosion-Detection-GradCAM/blob/main/Image1_GC.png) |Class 5 | 30.53% ± 14.49% |
+| ![Input](https://github.com/janavodnirmalj/Corrosion-Detection-GradCAM/blob/main/Image1.png)|  ![Mask](https://github.com/janavodnirmalj/Corrosion-Detection-GradCAM/blob/main/Image1_OL.png) | ![Grad-CAM](https://github.com/janavodnirmalj/Corrosion-Detection-GradCAM/blob/main/Image1_GC.png) |Class 5 | 25.25% ± 11.89% |
 |Uploaded image of a steel member|Corroded areas are marked|The contribution of each input pixel to the marked corroded segments|Severity rating based on the corrosion area|Quantification of corroded area with a 95% confidence interval|
 
