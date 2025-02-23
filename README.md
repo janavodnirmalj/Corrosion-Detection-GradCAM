@@ -47,7 +47,8 @@ This application processes images of steel members to detect and segment areas o
 ## Sample Output
 A sample output for a given input image is summarised in the following table:
 
-| Input Image | Grad-CAM Heatmap | Corrosion Mask | Corrosion Class | Corroded Percentage |
+| Input Image | Corrosion Mask | Grad-CAM Heatmap | Corrosion Class | Corroded Percentage |
 |-------------|-----------------|----------------|-----------------|-------------------|
-| ![Input](https://github.com/janavodnirmalj/Corrosion-Detection-GradCAM/blob/main/Image1.png)| ![Grad-CAM](https://github.com/janavodnirmalj/Corrosion-Detection-GradCAM/blob/main/Image1_GC.png) | ![Mask](https://github.com/janavodnirmalj/Corrosion-Detection-GradCAM/blob/main/Image1_OL.png) | Class 5 | 30.53% ± 14.49% |
+| ![Input](https://github.com/janavodnirmalj/Corrosion-Detection-GradCAM/blob/main/Image1.png)|  ![Mask](https://github.com/janavodnirmalj/Corrosion-Detection-GradCAM/blob/main/Image1_OL.png) | ![Grad-CAM](https://github.com/janavodnirmalj/Corrosion-Detection-GradCAM/blob/main/Image1_GC.png) |Class 5 | 30.53% ± 14.49% |
+|Uploaded image of a steel member|Corroded areas are marked|The contribution of each input pixel to the marked corroded segments|Severity rating based on the corrosion area|Quantification of corroded area with a 95% confidence interval|
 
