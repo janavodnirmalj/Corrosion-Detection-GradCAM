@@ -40,7 +40,7 @@ This application processes images of steel members to detect and segment areas o
   - Corrosion overlay image
   - Grad-CAM explanation
   - Corrosion class (Severity from 1 to 10)
-  - Corroded percentage
+  - Percentage of corrosion with a 95% confidence interval while accounting for both epistemic and aleatoric uncertainties
 
 ![Final Output](https://github.com/janavodnirmalj/Corrosion-Detection-GradCAM/blob/main/WebApp_Output.png)
 
