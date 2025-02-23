@@ -26,14 +26,14 @@ This application processes images of steel members to detect and segment areas o
 
 ### 🔹 **Figure 1: Processing Status**
 - The detection of corroded segments for the **first image** is completed.
-- Results are visualized while other images are still being processed.
+- Results are visualised while other images are still being processed.
 - The **status bar** provides guidance on the analysis progress.
 
 ![Processing Image 1](https://github.com/janavodnirmalj/Corrosion-Detection-GradCAM/blob/main/WebApp_Processing.png)
 
 ---
 
-### 🔹 **Image 2: Final Output for Multiple Image Submission**
+### 🔹 **Figure 2: Final Output for Multiple Image Submission**
 - This figure showcases the **final output** when all images have been processed.
 - Each image receives an **individual corrosion analysis**.
 - The interface displays:
