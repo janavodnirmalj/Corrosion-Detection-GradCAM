@@ -1,16 +1,16 @@
 # Corrosion-Detection-GradCAM
-This project detects corrosion in images using a pre-trained CNN model (Nash et al., 2022) and visualizes results. The system provides an image marking the corroded area, Grad-CAM explanations, corrosion percentage estimation, and classification based on the corroded percentage.
+This project detects corrosion in images using a pre-trained CNN model (Nash et al., 2022) and visualises results. The system provides an image marking the corroded area, Grad-CAM explanations, corrosion percentage estimation, and classification based on the corroded percentage.
 
 The developed web application from this approach is available at: https://huggingface.co/spaces/Shashikatd/Corrosion_Detector
 
 ## How the Application Works
 
-This application processes images of steel members to detect and segment areas of corrosion. It assigns a corrosion severity rating on a scale of **Class 1 to Class 10** based on the detected corrosion percentage. furthermore, it provides **Grad-CAM visualizations** to explain the model’s predictions.
+This application processes images of steel members to detect and segment areas of corrosion. It assigns a corrosion severity rating on a scale of **Class 1 to Class 10** based on the detected corrosion percentage. furthermore, it provides **Grad-CAM visualisations** to explain the model’s predictions.
 
 ### Workflow:
 1️⃣ **User uploads images** of steel members  
 2️⃣ **Model processes each image**, segmenting corrosion areas  
-3️⃣ **Grad-CAM visualization is generated** to explain the model’s focus  
+3️⃣ **Grad-CAM visualisation is generated** to explain the model’s focus  
 4️⃣ **Corrosion severity (%) is calculated** and mapped to a **corrosion class (1-10)**  
 5️⃣ **Outputs are displayed per image**, including:
    - **Corrosion overlay image** (visual segmentation of corroded regions)  
