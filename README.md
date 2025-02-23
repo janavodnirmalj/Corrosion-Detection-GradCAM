@@ -4,4 +4,4 @@ This project detects corrosion in images using a pre-trained CNN model and visua
 
 | Input Image | Grad-CAM Heatmap | Corrosion Mask | Corrosion Class | Corroded Percentage |
 |-------------|-----------------|----------------|-----------------|-------------------|
-| ![Input](https://github.com/janavodnirmalj/Corrosion-Detection-GradCAM/blob/main/Image1.jpeg| ![Grad-CAM](https://github.com/janavodnirmalj/Corrosion-Detection-GradCAM/blob/main/Image1_GC.png) | ![Mask](https://github.com/janavodnirmalj/Corrosion-Detection-GradCAM/blob/main/Image1_OL.png) | Class 5 | 30.53% ± 14.49% |
+| ![Input](https://github.com/janavodnirmalj/Corrosion-Detection-GradCAM/blob/main/Image1.png| ![Grad-CAM](https://github.com/janavodnirmalj/Corrosion-Detection-GradCAM/blob/main/Image1_GC.png) | ![Mask](https://github.com/janavodnirmalj/Corrosion-Detection-GradCAM/blob/main/Image1_OL.png) | Class 5 | 30.53% ± 14.49% |
